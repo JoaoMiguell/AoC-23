@@ -1,7 +1,7 @@
 ﻿internal class Program {
   static void Main() {
-    Day1.First();
-    Day1.Second();
+    Day2.First();
+    Day2.Second();
   }
 }
 
