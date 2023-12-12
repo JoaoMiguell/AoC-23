@@ -5,12 +5,14 @@
 }
 
 internal static class Day3 {
-  static StreamReader sr = new StreamReader("./Day-3/Data.txt");
   static List<string> list = new();
 
   static Day3() {
+    StreamReader sr = new StreamReader("./Day-3/Data.txt");
     while(!sr.EndOfStream)
       list.Add(sr.ReadLine() + '.');
+
+    sr.Close();
   }
 
   public static void First() {
